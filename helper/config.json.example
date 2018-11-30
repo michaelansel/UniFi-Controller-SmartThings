@@ -1,0 +1,25 @@
+{
+  "unifi": {
+    "host": "unifi.controller.com",
+    "user": "admin",
+    "pass": "password123",
+    "site": "default",
+    "bounce_delay": 300,
+    "poll_interval": 60
+  },
+  "smartthings": {
+    "update_interval": 600
+  },
+  "devices": {
+    "12:34:56:78:90:ab": {
+      "name": "My Phone",
+      "token": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "url": "https://graph.api.smartthings.com:443/api/smartapps/installations/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/"
+    },
+    "ba:09:87:65:43:21": {
+      "name": "Wife's Phone",
+      "token": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "url": "https://graph.api.smartthings.com:443/api/smartapps/installations/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/"
+    }
+  }
+}
